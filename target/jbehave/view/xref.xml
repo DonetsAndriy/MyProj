@@ -1,0 +1,31 @@
+<xref>
+  <whenMade>1445955348189</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter>-ignore</metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description></description>
+      <narrative>In order to 
+As a user
+I want to perform login action
+</narrative>
+      <name>TestStory.story</name>
+      <path>Thucidies/stories/consult_dictionary/TestStory.story</path>
+      <html>Thucidies.stories.consult_dictionary.TestStory.html</html>
+      <meta></meta>
+      <scenarios>Scenario:Log in system
+Given application login page
+When press sign in button
+Then verify if user get into system
+
+
+</scenarios>
+      <passed>true</passed>
+      <pending>false</pending>
+      <started>1445955320553</started>
+      <duration>24877</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>

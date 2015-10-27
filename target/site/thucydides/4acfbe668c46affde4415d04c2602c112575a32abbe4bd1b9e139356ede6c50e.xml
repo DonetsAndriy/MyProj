@@ -1,0 +1,62 @@
+<acceptance-test-run title="Log in system" name="Log in system" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="24711" timestamp="2015-10-27T16:15:20.596+02:00">
+  <user-story id="TestStory" name="Test story" path="Thucidies/stories/consult_dictionary/TestStory.story"/>
+  <tags>
+    <tag name="Consult dictionary/Test story" type="story"/>
+    <tag name="Test story" type="story"/>
+  </tags>
+  <test-group name="Given application login page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="5479384d3b95cb1937fadb27766c8373_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="7963">
+      <screenshots>
+        <screenshot image="5479384d3b95cb1937fadb27766c8373_NONE.png"/>
+      </screenshots>
+      <description>Open loginpage</description>
+    </test-step>
+  </test-group>
+  <test-group name="When press sign in button" result="SUCCESS">
+    <screenshots>
+      <screenshot image="4a0c0cd65415c136625155a771a3b899_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1189">
+      <screenshots>
+        <screenshot image="cf5fc9d6c96363b4a6528c90697033f2_NONE.png"/>
+      </screenshots>
+      <description>Fill in username</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="292">
+      <screenshots>
+        <screenshot image="25cab73df3e23526540e46a2f468cc14_NONE.png"/>
+        <screenshot image="8eb89a987af39ae3751e78e7692e7817_NONE.png"/>
+      </screenshots>
+      <description>Fill in password</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="2974">
+      <screenshots>
+        <screenshot image="7c51707880e1a2c83cd0165c8862ade0_NONE.png"/>
+        <screenshot image="9f75ed5cef8a220c891a1409b4c790c6_NONE.png"/>
+      </screenshots>
+      <description>Press sign in button</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then verify if user get into system" result="SUCCESS">
+    <screenshots>
+      <screenshot image="59658f30f61d3bf841e2503416ced9a7_NONE.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="629">
+      <screenshots>
+        <screenshot image="50a3bafdef915599dc1050e43ec466be_NONE.png"/>
+        <screenshot image="b79c0fb5d93b800dfff97c6971899654_NONE.png"/>
+      </screenshots>
+      <description>Assert logged in</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="10821">
+      <screenshots>
+        <screenshot image="ea44533307b9c97e6264a2ad7891958a_NONE.png"/>
+        <screenshot image="450ce1a79e89bf0460efbc7edc1c7b93_NONE.png"/>
+      </screenshots>
+      <description>Select zone</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

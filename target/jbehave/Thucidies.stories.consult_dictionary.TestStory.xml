@@ -1,0 +1,12 @@
+<story path="Thucidies/stories/consult_dictionary/TestStory.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">user</inOrderTo>
+  <asA keyword="I want to">perform login action</asA>
+  <iWantTo keyword="So that">I can enter to my application</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Log in system">
+<step outcome="successful">Given application login page</step>
+<step outcome="successful">When press sign in button</step>
+<step outcome="successful">Then verify if user get into system</step>
+</scenario>
+</story>

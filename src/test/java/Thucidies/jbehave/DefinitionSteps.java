@@ -1,13 +1,17 @@
 package Thucidies.jbehave;
 
 import Thucidies.utils.RaedPropFile;
+import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.*;
 import net.thucydides.junit.runners.ThucydidesRunner;
+//import org.jbehave.core.annotations.Given;
+//import org.jbehave.core.annotations.Then;
+//import org.jbehave.core.annotations.When;
+
+import Thucidies.steps.EndUserSteps;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
-
-import Thucidies.steps.EndUserSteps;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,7 +19,7 @@ import org.openqa.selenium.WebDriver;
 import requirements.Application;
 
 import java.io.IOException;
-@RunWith(ThucydidesRunner.class)
+@RunWith(SerenityRunner.class)
 @Story(Application.CCLogin.LoginCCCheck.class)
 @WithTag("feature:Login")
 

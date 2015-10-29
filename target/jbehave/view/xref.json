@@ -1,21 +1,21 @@
 {"xref": {
-  "whenMade": 1445955348189,
+  "whenMade": 1446124479542,
   "createdBy": "JBehave",
   "metaFilter": "-ignore",
   "meta": [],
   "stories": [
     {
       "description": "",
-      "narrative": "In order to \u000aAs a user\u000aI want to perform login action\u000a",
+      "narrative": "In order to \nAs a user\nI want to perform login action\n",
       "name": "TestStory.story",
       "path": "Thucidies/stories/consult_dictionary/TestStory.story",
       "html": "Thucidies.stories.consult_dictionary.TestStory.html",
       "meta": "",
-      "scenarios": "Scenario:Log in system\u000aGiven application login page\u000aWhen press sign in button\u000aThen verify if user get into system\u000a\u000a\u000a",
+      "scenarios": "Scenario:Log in system\nGiven application login page\nWhen press sign in button\nThen verify if user get into system\n\n\n",
       "passed": true,
       "pending": false,
-      "started": 1445955320553,
-      "duration": 24877
+      "started": 1446124460871,
+      "duration": 15994
     }
   ],
   "stepMatches": []

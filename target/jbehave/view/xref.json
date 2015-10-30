@@ -1,5 +1,5 @@
 {"xref": {
-  "whenMade": 1446125251556,
+  "whenMade": 1446210138192,
   "createdBy": "JBehave",
   "metaFilter": "-ignore",
   "meta": [],
@@ -14,8 +14,8 @@
       "scenarios": "Scenario:Log in system\nGiven application login page\nWhen press sign in button\nThen verify if user get into system\n\n\n",
       "passed": true,
       "pending": false,
-      "started": 1446125230354,
-      "duration": 18341
+      "started": 1446210070559,
+      "duration": 64468
     }
   ],
   "stepMatches": []

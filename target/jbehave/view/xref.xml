@@ -1,5 +1,5 @@
 <xref>
-  <whenMade>1446125251556</whenMade>
+  <whenMade>1446210138192</whenMade>
   <createdBy>JBehave</createdBy>
   <metaFilter>-ignore</metaFilter>
   <meta/>
@@ -23,8 +23,8 @@ Then verify if user get into system
 </scenarios>
       <passed>true</passed>
       <pending>false</pending>
-      <started>1446125230354</started>
-      <duration>18341</duration>
+      <started>1446210070559</started>
+      <duration>64468</duration>
     </story>
   </stories>
   <stepMatches/>

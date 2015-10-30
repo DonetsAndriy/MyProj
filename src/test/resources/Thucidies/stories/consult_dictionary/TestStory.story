@@ -9,3 +9,4 @@ Scenario: Log in system
 Given application login page
 When press sign in button
 Then verify if user get into system
+Then verify if location group can be created

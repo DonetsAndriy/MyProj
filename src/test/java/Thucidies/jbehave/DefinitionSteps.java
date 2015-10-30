@@ -66,6 +66,10 @@ public class DefinitionSteps {
     public void assertLoggedIn()
     {
      endUser.assertLoggedIn();
+    }
+    @Then("verify if location group can be created")
+    public void createLocationGroup()
+    {
         endUser.selectZone();
     }
 }

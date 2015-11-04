@@ -10,8 +10,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <serenity.version>1.0.47</serenity.version>
-        <serenity.maven.version>1.0.47</serenity.maven.version>
+        <serenity.version>1.1.17</serenity.version>
+        <serenity.maven.version>1.1.17</serenity.maven.version>
         <webdriver.chrome.driver>./src/test/resources/chromedriver.exe</webdriver.chrome.driver>
         <webdriver.ie.driver>./src/test/resources/IEDriverServer.exe</webdriver.ie.driver>
         <webdriver.driver>firefox</webdriver.driver>
@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>net.serenity-bdd</groupId>
-            <artifactId>core</artifactId>
+            <artifactId>serenity-core</artifactId>
             <version>${serenity.version}</version>
         </dependency>
         <dependency>
@@ -81,7 +81,7 @@
                 <dependencies>
                     <dependency>
                         <groupId>net.serenity-bdd</groupId>
-                        <artifactId>core</artifactId>
+                        <artifactId>serenity-core</artifactId>
                         <version>${serenity.version}</version>
                     </dependency>
                 </dependencies>
